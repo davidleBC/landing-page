@@ -1,0 +1,51 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.headernav {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslateblue;
+}
+
+.headblurb {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkslateblue;
+}
+
+.blurb-content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.blurb-image {
+    height: 150px;
+    width: auto;
+}
+
+.right-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
